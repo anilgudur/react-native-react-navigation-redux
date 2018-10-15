@@ -1,2 +1,2 @@
-# react-native-react-navigation-redux
-react-native-react-navigation-redux
+# react-native-redux-todo
+React native redux todo App
