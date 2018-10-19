@@ -1,11 +1,29 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
+ * @flow
+ */
+
+import React, { PureComponent } from 'react';
+import Root from './src/Root';
+
+export default class App extends PureComponent {
+  render() {
+    return (
+      <Root />
+    );
+  }
+}
+
+
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
  *
  * @format
  * @flow
  */
-
+/*
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Alert } from 'react-native';
 import TaskList from './src/Task/TaskList';
@@ -145,3 +163,4 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+*/
